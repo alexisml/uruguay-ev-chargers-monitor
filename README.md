@@ -25,4 +25,4 @@ See [docs/MVP_PLAN.md](docs/MVP_PLAN.md) for the full phased roadmap.
 
 ## License
 
-This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
+See the [LICENSE](LICENSE) file for the terms under which this project is made available.

@@ -1,6 +1,6 @@
 # Uruguay EV Chargers Monitor
 
-A web-based frontend for monitoring electric vehicle (EV) charging stations across Uruguay. This application provides real-time visibility into charger status, historical analytics, and predictive insights to help EV drivers find available chargers and plan trips with confidence.
+A web-based frontend for monitoring electric vehicle (EV) charging stations across Uruguay. This application provides historical analytics and predictive insights to help EV drivers plan charging sessions with confidence. For real-time charger status, use the UTE app directly.
 
 **Backend:** [uruguay-ev-chargers-monitor-backbone](https://github.com/alexisml/uruguay-ev-chargers-monitor-backbone)
 
@@ -9,7 +9,6 @@ A web-based frontend for monitoring electric vehicle (EV) charging stations acro
 ### Charger Network Tracking
 - **New charger alerts** — get notified when new charging stations are added to the network
 - **Removed charger alerts** — get notified when charging stations are removed or decommissioned
-- **Live status map** — view the current status of all chargers on an interactive map
 
 ### Predicted Availability
 - **Availability forecasts** — see expected charger availability at a given location, time, and day of the week, based on historical usage data
@@ -22,31 +21,7 @@ A web-based frontend for monitoring electric vehicle (EV) charging stations acro
 
 ## MVP Plan
 
-### Phase 1 — Foundation
-- [ ] Set up the frontend project (framework, build tooling, linting)
-- [ ] Integrate with the backbone API for charger data
-- [ ] Display a list/map of all known chargers with current status
-
-### Phase 2 — Charger Network Changes
-- [ ] Show newly added chargers (highlighted on map and in a dedicated feed)
-- [ ] Show recently removed chargers
-- [ ] Basic notification/alert UI for network changes
-
-### Phase 3 — Predicted Availability
-- [ ] Fetch and display historical availability data per charger
-- [ ] Present predicted availability by day of week and time of day
-- [ ] Add visual indicators (e.g. heatmap or chart) for peak vs. off-peak periods
-
-### Phase 4 — Problematic Charger Detection
-- [ ] Display chargers flagged as frequently unavailable
-- [ ] Display chargers flagged as always in use
-- [ ] Display chargers flagged for error states or anomalies
-- [ ] Aggregate a "health score" view for each charger
-
-### Phase 5 — Polish & Release
-- [ ] Responsive design for mobile use
-- [ ] User preferences (favorite chargers, notification settings)
-- [ ] Performance optimization and caching
+See [docs/MVP_PLAN.md](docs/MVP_PLAN.md) for the full phased roadmap.
 
 ## License
 
